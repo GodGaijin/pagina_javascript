@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Auditoría - Sistema de Inventario</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Auditoría de Cambios</h2>
+    <button onclick="location.href='main.html'">Volver al Menú Principal</button>
+    <table id="auditsTable" border="1">
+      <thead>
+        <tr>
+          <th>Usuario</th><th>Acción</th><th>Entidad</th><th>ID Entidad</th><th>Fecha y Hora</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <div id="auditError" style="color:#d9534f;text-align:center;"></div>
+  </div>
+  <script src="js/audits.js"></script>
+</body>
+</html> 
